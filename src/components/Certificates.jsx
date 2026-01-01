@@ -87,7 +87,7 @@ const Certificates = () => {
 
     return (
         <section id="certificates" className="py-20 px-6 relative z-10 transition-colors duration-1000 ease-in-out">
-            <div className="container mx-auto max-w-7xl h-[750px] md:h-[400px] flex flex-col">
+            <div className="container mx-auto max-w-7xl h-[750px] md:h-[600px] flex flex-col">
 
                 <motion.div
                     initial={{ opacity: 0 }}

@@ -125,6 +125,7 @@ const Projects = () => {
                             viewport={{ once: true }}
                             className="group relative border-t border-white/10 transition-colors hover:bg-white/5"
                             onClick={() => setHoveredProject(hoveredProject?.id === project.id ? null : project)}
+                            onMouseEnter={() => setHoveredProject(project)}
                         >
                             <div className="py-12 px-4 md:px-8 cursor-pointer">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">

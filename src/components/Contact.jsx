@@ -48,7 +48,7 @@ const Contact = () => {
                 {
                     from_name: formData.name,
                     from_email: formData.email,
-                    message: formData.message,
+                    message: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
                     to_name: "Keshav Jangir"
                 },
                 '_ATgNBSEZAR-PEjCe'
@@ -176,8 +176,8 @@ const Contact = () => {
                                                     type="submit"
                                                     disabled={status.loading || status.success}
                                                     className={`px-8 py-3 font-bold text-sm rounded-full transition-all flex items-center gap-2 ${status.success
-                                                            ? "bg-green-500 text-white"
-                                                            : "bg-white text-black hover:bg-accent-primary hover:text-white"
+                                                        ? "bg-green-500 text-white"
+                                                        : "bg-white text-black hover:bg-accent-primary hover:text-white"
                                                         } disabled:opacity-50 disabled:cursor-not-allowed`}
                                                 >
                                                     {status.loading ? (

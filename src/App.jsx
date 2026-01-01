@@ -13,7 +13,7 @@ import Skills from './components/Skills'
 
 function App() {
     return (
-        <ReactLenis root options={{ lerp: 0.05, duration: 1.5, smoothWheel: true }}>
+        <ReactLenis root options={{ lerp: 0.1, duration: 1.2, smoothWheel: true }}>
             <div className="min-h-screen relative font-sans text-text-main selection:bg-accent-primary/30 cursor-none">
                 <Aurora />
                 <Cursor />

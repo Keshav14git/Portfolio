@@ -126,8 +126,6 @@ const About = () => {
                                     <h3 className="text-4xl font-bold mb-2 group-hover/edu:text-blue-400 transition-colors">JECRC University</h3>
                                     <div className="flex flex-wrap gap-4 items-center text-lg text-text-muted mb-4">
                                         <span>2022 - 2026</span>
-                                        <span className="w-1 h-1 bg-white/20 rounded-full" />
-                                        <span>7.73 CGPA</span>
                                     </div>
                                     <p className="text-xl font-light leading-relaxed max-w-2xl">
                                         Specializing in Computer Science & Engineering. Deep diving into Algorithms, Operating Systems, and Distributed Computing.
